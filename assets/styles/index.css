@@ -1,0 +1,53 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body ul, body li {
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+}
+body ul > li {
+  padding: 5px;
+  margin-bottom: 2px;
+  vertical-align: center;
+  border: 2px solid #6190e8;
+  border-radius: 3px;
+}
+body a {
+  text-decoration: none;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  background: linear-gradient(to right, #6190e8, #a7bfe8);
+}
+body .container section, body .container header, body .container footer, body .container main {
+  text-align: center;
+}
+body .container table {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+body .container table tbody tr td {
+  width: 300px;
+  font-size: 15px;
+  color: black;
+  border: 1px solid darkblue;
+}
+body .container table tbody tr td section {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */
